@@ -218,3 +218,25 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---- Project-specific: data, embeddings, images ----
+data/*
+!data/README.md
+
+# Embeddings and weights
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+*.parquet
+*.h5
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+
+# Allow small result figures to be committed
+!results/*.png
