@@ -1,0 +1,11 @@
+{
+  "dataset": "COCO val2017",
+  "seed": 42,
+  "n_pairs": 2000,
+  "caption_rule": "first",
+  "min_words": 3,
+  "image_size": 512,
+  "dropped": {
+    "duplicate": 6
+  }
+}
