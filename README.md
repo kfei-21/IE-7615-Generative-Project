@@ -1,4 +1,3 @@
-# IE-7615-Generative-Project
 # IE-7615 Generative Project
 
 Text-to-image generation using a Transformer text encoder (CLIP) and a pre-trained diffusion model (Stable Diffusion v1.5).
