@@ -1,10 +1,15 @@
 {
   "dataset": "COCO val2017",
+  "annotations": "captions_val2017.json",
+  "image_source": "coco_url (per-image download)",
   "seed": 42,
   "n_pairs": 2000,
   "caption_rule": "first",
   "min_words": 3,
   "image_size": 512,
+  "resize": "shorter side, LANCZOS",
+  "crop": "center",
+  "format": "PNG (lossless)",
   "dropped": {
     "duplicate": 6
   }
