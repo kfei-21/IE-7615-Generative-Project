@@ -28,6 +28,11 @@ repo into that Drive folder). Run all cells top to bottom. Install the pinned li
 5. Writes the two files the rest of the team reads from:
    * `manifest.csv`: `image_id`, `file_path` (relative to the data folder), `caption`
    * `preprocessing_config.json`: dataset, seed, caption rule, minimum words, image size, dropped counts
+6. Reports summary stats and checks the output:
+   * 2,000 pairs, average caption length 10.4 words 
+   * `example_pairs.png`: six randomly sampled image–caption pairs
+   * sanity checks that every image is 512×512 RGB, image IDs are unique, and no caption is empty
+
 
 ## What `02_text_embeddings.ipynb` does
 
