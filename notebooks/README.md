@@ -17,6 +17,8 @@ Notebook 2 needs `manifest.csv`, so run notebook 1 first (or copy `data/manifest
 repo into that Drive folder). Run all cells top to bottom. Install the pinned libraries with
 `pip install -r requirements.txt` (the first cell of notebook 2 also does this).
 
+## What `Milestone1_generative.ipynb` does
+
 ## What `02_text_embeddings.ipynb` does
 
 1. Installs `torch`, `diffusers`, `transformers` and `accelerate` and writes the pinned
