@@ -18,6 +18,9 @@ repo into that Drive folder). Run all cells top to bottom. Install the pinned li
 `pip install -r requirements.txt` (the first cell of notebook 2 also does this).
 
 ## What `Milestone1_generative.ipynb` does
+1. Downloads the COCO val2017 caption annotations (only the annotation file) to `raw/` in the Drive data folder.
+2. Picks one caption per image using a fixed rule: the first caption (lowest annotation ID).
+3. 
 
 ## What `02_text_embeddings.ipynb` does
 
