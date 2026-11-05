@@ -219,11 +219,12 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# ---- Project-specific: data, embeddings, images ----
-data/*
-!data/README.md
+# ---- Project-specific ----
+# Data: track manifest.csv and preprocessing_config.json, not images or raw downloads
+data/raw/
+data/processed_512/
 
-# Embeddings and weights
+# Embeddings and weights (live on Drive)
 *.npy
 *.npz
 *.pt
@@ -232,11 +233,16 @@ data/*
 *.parquet
 *.h5
 
-# Images
+# Images: ignored everywhere except result figures
 *.jpg
 *.jpeg
 *.png
 *.gif
+!results/**/*.png
 
-# Allow small result figures to be committed
-!results/*.png
+# Individual generated samples stay on Drive (each one already appears in a grid)
+results/**/sample_*.png
+
+# OS files
+.DS_Store
+Thumbs.db

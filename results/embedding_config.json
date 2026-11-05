@@ -1,8 +1,0 @@
-{
-  "checkpoint": "stable-diffusion-v1-5/stable-diffusion-v1-5",
-  "n_captions": 2000,
-  "max_len": 77,
-  "n_truncated": 0,
-  "max_tokens": 30,
-  "median_tokens": 13.0
-}
