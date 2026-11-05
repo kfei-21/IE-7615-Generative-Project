@@ -24,6 +24,10 @@ repo into that Drive folder). Run all cells top to bottom. Install the pinned li
    * strips whitespace and collapses repeated spaces
    * drops empty captions, captions under 3 words, and duplicates (compared after lowercasing and removing punctuation)
    * shuffles the images with seed 42 and keeps the first 2,000 that pass
+4. Downloads only the 2,000 selected images, resizes the shorter side to 512, center-crops to 512×512, converts to RGB, and saves them as lossless PNGs in `processed_512/`. A full run prints `Processed: 2000 | Failed: 0`.
+5. Writes the two files the rest of the team reads from:
+   * `manifest.csv`: `image_id`, `file_path` (relative to the data folder), `caption`
+   * `preprocessing_config.json`: dataset, seed, caption rule, minimum words, image size, dropped counts
 
 ## What `02_text_embeddings.ipynb` does
 
