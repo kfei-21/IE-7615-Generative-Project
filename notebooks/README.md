@@ -20,7 +20,10 @@ repo into that Drive folder). Run all cells top to bottom. Install the pinned li
 ## What `Milestone1_generative.ipynb` does
 1. Downloads the COCO val2017 caption annotations (only the annotation file) to `raw/` in the Drive data folder.
 2. Picks one caption per image using a fixed rule: the first caption (lowest annotation ID).
-3. 
+3. 3. Cleans and selects the subset:
+   * strips whitespace and collapses repeated spaces
+   * drops empty captions, captions under 3 words, and duplicates (compared after lowercasing and removing punctuation)
+   * shuffles the images with seed 42 and keeps the first 2,000 that pass
 
 ## What `02_text_embeddings.ipynb` does
 
