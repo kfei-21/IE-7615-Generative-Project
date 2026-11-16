@@ -1,0 +1,20 @@
+{
+  "checkpoint": "sd2-community/stable-diffusion-2-1-base",
+  "revision": "4e63672c03103b6c636b8fb4119ba982469b2955",
+  "model_tag": "sd21",
+  "manifest": "manifest.csv",
+  "caption_col": "caption",
+  "n_captions": 2000,
+  "hidden_size": 1024,
+  "max_len": 77,
+  "pad_token_id": 0,
+  "n_truncated": 0,
+  "max_tokens": 30,
+  "median_tokens": 13.0,
+  "libraries": [
+    "torch==2.11.0",
+    "diffusers==0.42.1",
+    "transformers==5.22.0",
+    "accelerate==1.15.0"
+  ]
+}
