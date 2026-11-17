@@ -1,0 +1,11 @@
+image_id,category,caption,emb_row,file_path
+1761,counting,Two planes flying in the sky over a bridge.,10,processed_512/000000001761.png
+97924,people_action,Three people are loading a horse into a horse trailer.,343,processed_512/000000097924.png
+25181,spatial_relation,A train station with an awning is depicted with a train on the right platform.,114,processed_512/000000025181.png
+3661,simple_scene,A bunch of bananas sitting on top of a wooden table.,21,processed_512/000000003661.png
+5600,two_objects,A pan filled with onions sitting next to a pan of stew.,33,processed_512/000000005600.png
+27972,colour_binding,A man in a red shirt rides a yellow surfboard on light blue water.,120,processed_512/000000027972.png
+214200,visible_text,"A red stop sign that reads "" Eating Animals "" below it.",763,processed_512/000000214200.png
+12670,crowd,A crowd of people standing around each other.,69,processed_512/000000012670.png
+88269,food_closeup,A plate holding a grilled cheese sandwich and bowl of soup.,306,processed_512/000000088269.png
+7574,cluttered_indoor,A kitchen with a very messy counter space.,43,processed_512/000000007574.png
