@@ -8,8 +8,7 @@ Course: IE 7615 Deep Learning for AI.
 
 ## Status
 - Milestone 1 (setup, dataset preparation, text→embedding baseline, sample testing): complete.
-- Milestone 2 (baseline conditional generation, guidance and noise-schedule tuning): complete,
-  report submitted 20 November 2026.
+- Milestone 2 (baseline conditional generation, guidance and noise-schedule tuning): complete.
 
 ## Repository structure
 
